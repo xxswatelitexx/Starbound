@@ -1,0 +1,25 @@
+Super simple instructions
+1. Draw your pet on the existing sprite sheets provided in monster / pets / parts
+2. Must be within the frame size 32 x 32
+3. Spawn pet in game by typing 
+	/admin 
+	/spawnitem pethouseCustomPet 1
+## Super simple instructions set should only be for personal use only. It will not be compatible with other custom pet mods.
+
+
+Simple Instructions
+1. Draw your pet on the existing sprite sheets provided in monster / pets / parts
+2. Must be within the frame size 32 x 32
+3. Rename EVERY file and folder and EVERY instance of customPet in EVERY file ( including modinfo file ) 
+	You can open the files using notepad or equivalent- do not use a fancy word program like Microsoft word. Must be UTF-8 Complaint. Fancy programs can use non standard characters which will result in it not working.
+4. If you did it right, spawn by typing
+	/admin
+	/spawnitem pethouseName
+	*where Name = pet name with the first letter capital.
+
+## Simple instructions will be compatible with other custom pet mods. Pet most likely will not sleep in its own pethouseCustomPet
+
+Moderate Instructions
+1. Same as simple instructions
+2. pethouseName - the "Name" part should begin with a capital letter and not include the letters "pet" in the first 3 letters. 
+

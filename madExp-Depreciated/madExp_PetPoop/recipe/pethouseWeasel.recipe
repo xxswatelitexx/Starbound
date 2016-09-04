@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 5000 }
+  ],
+  "output" : {
+    "item" : "pethouseWeasel",
+    "count" : 1
+  },
+  "groups" : [ "infinityexpress" ]
+}

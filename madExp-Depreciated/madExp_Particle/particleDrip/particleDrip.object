@@ -1,0 +1,66 @@
+{
+  "objectName" : "pDrip",
+  "rarity" : "Common",
+  "description" : "Torches have been stuck to a sapling in lieu of a fancy chandelier.",
+  "shortdescription" : "Primitive Chandelier",
+  "race" : "floran",
+
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "It appears as if a young tree has been hung upside down with torches attached.",
+  "avianDescription" : "A chandelier made from a tree.",
+  "floranDescription" : "Floran make hanging light from sssmall tree. Floran attach torch with bone. Make sssure light not burn.",
+  "glitchDescription" : "Amused. It appears to be a small tree hanging from the ceiling.",
+  "humanDescription" : "It looks as if the Floran have used a sapling to make a chandelier.",
+  "hylotlDescription" : "This is one of the few Floran creations that isn't made from bone in some way. Wait... what's that holding the torches.",
+
+  "category" : "light",
+  "price" : 525,
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+	
+	"particleEmitter" : {
+    "emissionRate" : 1, 
+    "emissionVariance" : 0,
+		"pixelOrigin" : [0, 0],
+		
+    "particle" : {
+      "type" : "ember",
+      "size" : 1.0,
+      "color" : [65,105,225, 255],
+      "light" : [150, 50, 50],
+      "fade" : 0.1,
+      "initialVelocity" : [0, -1],
+      "finalVelocity" : [0, -100],
+      "approach" : [0, 5],
+      "timeToLive" : 6,
+      "layer" : "front",
+			"fullbright" : true
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0, 0],
+			"finalVelocity" : [0, 0]
+    }
+  },
+	
+
+  "statusEffects" : [ ],
+
+  "inventoryIcon" : "devBox.png",
+  "orientations" : [
+    {
+      "image" : "devBox.png:<color>",
+      "imagePosition" : [-8,0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "inboundNodes" : [ [0, 0] ]
+}

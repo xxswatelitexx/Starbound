@@ -1,0 +1,15 @@
+[ 
+	{
+		"op" : "add",
+		"path" : "/statusControllerSettings/stats/blStageMax",
+		"value" : { "baseValue" : 3}
+	},
+	{
+		"op" : "add",
+		"path" : "/statusControllerSettings/resources/blStage",
+		"value" : {
+       "maxStat" : "blStageMax",
+       "initialPercentage" : 0
+		} 
+	}
+]

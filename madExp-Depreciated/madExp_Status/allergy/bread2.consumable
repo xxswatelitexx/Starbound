@@ -1,0 +1,14 @@
+{
+  "itemName" : "statusA",
+  "rarity" : "Common",
+  "price" : 25,
+  "inventoryIcon" : "bread.png",
+  "description" : "Mmm, fresh out of the oven.",
+  "shortdescription" : "Allergy",
+  "handPosition" : [0, 6],
+  "effects" : [ [
+    {
+        "effect" : "allergy_SBNO"
+    }
+  ] ]
+}

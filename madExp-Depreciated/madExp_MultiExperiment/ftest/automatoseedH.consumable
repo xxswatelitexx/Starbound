@@ -1,0 +1,15 @@
+{
+  "itemName" : "automatoseedH_sbno",
+  "rarity" : "Common",
+  "price" : 50,
+  "inventoryIcon" : "automatoseedH.png",
+  "description" : "Automato Seed Harvest",
+  "shortdescription" : "Automato Seed Harvest",
+  "effects" : [ [
+    {
+        "effect" : "fHarvest_sbno",
+				"seedType" : "automatoseed"
+    }
+  ] ],
+  "learnBlueprintsOnPickup" : [ ]
+}

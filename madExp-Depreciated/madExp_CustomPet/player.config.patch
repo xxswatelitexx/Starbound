@@ -1,0 +1,5 @@
+[ {
+"op" : "add",
+"path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "pethouseCustomPet" }
+} ]

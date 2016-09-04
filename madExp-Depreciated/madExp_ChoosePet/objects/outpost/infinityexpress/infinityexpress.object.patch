@@ -1,0 +1,34 @@
+[ {
+"op" : "add",
+"path" : "/interactData/items/-",
+"value" : { "item" : "pethouseBunny" }
+},{
+"op" : "add",
+"path" : "/interactData/items/-",
+"value" : { "item" : "pethouseCat" }
+},{
+"op" : "add",
+"path" : "/interactData/items/-",
+"value" : { "item" : "pethouseCrasberry" }
+},{
+"op" : "add",
+"path" : "/interactData/items/-",
+"value" : { "item" : "pethousePiglett" }
+},{
+"op" : "add",
+"path" : "/interactData/items/-",
+"value" : { "item" : "pethouseSnake" }
+},{
+"op" : "add",
+"path" : "/interactData/items/-",
+"value" : { "item" : "pethouseSnugget" }
+},{
+"op" : "add",
+"path" : "/interactData/items/-",
+"value" : { "item" : "pethouseWeasel" }
+},{
+"op" : "add",
+"path" : "/interactData/items/-",
+"value" : { "item" : "petTrap" }
+}
+ ]

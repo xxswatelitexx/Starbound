@@ -1,0 +1,9 @@
+{
+  "name" : "purpleblue",
+  "category" : "customPet",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "purpleblue.png"
+  }
+}

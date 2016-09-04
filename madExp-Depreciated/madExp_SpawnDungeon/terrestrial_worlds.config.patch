@@ -1,0 +1,12 @@
+[
+    {
+        "op" : "add",
+        "path":"/planetTypes/garden/layers/surface/dungeonCountRange",
+        "value":[1, 3]
+    },
+    {
+        "op" : "replace",
+        "path":"/planetTypes/garden/layers/surface/dungeons",
+        "value":["humanprison"]
+    }
+]

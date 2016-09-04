@@ -1,0 +1,45 @@
+{
+  "objectName" : "reefpodseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Reefpod, tastes like a crunchy smoothie made from every fruit you can imagine. ",
+  "shortdescription" : "Reefpod Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 50,
+
+  "apexDescription" : "If you close your eyes, reefpods taste a bit like bananas.",
+  "avianDescription" : "Deliciously palatable.",
+  "floranDescription" : "Tastesss like fishmen.",
+  "glitchDescription" : "Philosophical. If the reefpod tastes like every fruit you can imagine, what does one imagine a reefpod tasting like?",
+  "humanDescription" : "The most delightful tropical cocktail.",
+  "hylotlDescription" : "Despite the myriad sweet flavours, the reefpod is remarkably appealing.",
+
+  "inventoryIcon" : "reefpodseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "reefpodseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+	"scripts" : [ "/objects/farmables/reefpod/waterD.lua" ],
+  "stages" : [
+    {
+      "duration" : [200, 220]
+    },
+    {
+      "duration" : [200, 220]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "reefpodHarvest"
+    }
+  ]
+}

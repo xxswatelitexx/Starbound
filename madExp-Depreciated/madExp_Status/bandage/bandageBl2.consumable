@@ -1,0 +1,19 @@
+{
+  "itemName" : "bandageBl2",
+  "rarity" : "Common",
+  "price" : 25,
+  "inventoryIcon" : "bandage.png",
+  "description" : "A bandage for healing minor wounds. Using it restores 30 health.",
+  "shortdescription" : "Bandage",
+  "effects" : [ [
+      {
+        "effect" : "bandageBl",
+				"duration" : 5
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ],
+  "blockingEffects" : [
+    "bandageBl"
+  ]
+}

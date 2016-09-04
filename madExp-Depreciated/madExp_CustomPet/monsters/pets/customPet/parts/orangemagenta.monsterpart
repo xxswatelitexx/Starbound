@@ -1,0 +1,9 @@
+{
+  "name" : "orangemagenta",
+  "category" : "customPet",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "orangemagenta.png"
+  }
+}

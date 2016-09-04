@@ -1,0 +1,14 @@
+{
+  "name" : "bleeding_SBNO",
+
+  "effectConfig" : {
+		"bleedingChance" : 2
+	},
+  "defaultDuration" : 60,
+  "scripts" : [
+    "bleeding_SBNO.lua"
+  ],
+
+  "label" : "Bleeding",
+  "icon" : "/interface/statuses/absorb.png"
+}

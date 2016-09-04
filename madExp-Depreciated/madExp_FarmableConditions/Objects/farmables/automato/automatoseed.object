@@ -1,0 +1,51 @@
+{
+  "objectName" : "automatoseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Automatos! Be sure to spit out the screws.",
+  "shortdescription" : "Automato Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 10,
+
+  "apexDescription" : "Automatos... pretty standard, if you don't break your teeth on the screws.",
+  "avianDescription" : "Automatos. The seeds are pretty tasty by themselves.",
+  "floranDescription" : "Flesshy and juicy, with crunchy bitsss. Like humansss.",
+  "glitchDescription" : "Critical. Others remove the screws. The Glitch feel they enhance the flavour.",
+  "humanDescription" : "A tomato filled with screws. Tasty AND hazardous.",
+  "hylotlDescription" : "A sweet-tasting fruit. Fine for common, unremarkable dishes.",
+	"scripts" : [ "/objects/farmables/automato/ironG.lua" ],
+
+  "inventoryIcon" : "automatoseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "automatoseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [5, 5]
+    },
+    {
+      "duration" : [5, 5]
+    },
+    {
+      "alts" : 5,
+      "duration" : [110, 130]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "automatoHarvest",
+      "resetToStage" : 2
+    }
+  ]
+}

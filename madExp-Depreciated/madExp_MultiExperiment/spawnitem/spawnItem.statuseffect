@@ -1,0 +1,10 @@
+{
+  "name" : "spawnItem",
+
+  "scripts" : [
+    "spawnItem.lua"
+  ],
+
+  "label" : "Spawn",
+  "icon" : "/interface/statuses/heal.png"
+}

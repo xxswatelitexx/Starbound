@@ -1,0 +1,4 @@
+{
+	"name" : "madExp_LuaChest",
+	"requires" : [ "madExp_MultiExperiment" ]
+}

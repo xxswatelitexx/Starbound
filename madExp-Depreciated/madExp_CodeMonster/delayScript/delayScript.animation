@@ -1,0 +1,39 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "portrait" : {
+        "priority" : -1,
+        "default" : "portrait",
+        "states" : {
+          "portrait" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "body" : {
+        "properties" : {
+          "rotationGroup" : "body"
+        },
+        "partStates" : {
+          "portrait" : {
+            "portrait" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "rotationGroups" : {
+    "body" : {
+      "rotationCenter" : [0, 0],
+      "angularVelocity" : 5
+    }
+  }
+}

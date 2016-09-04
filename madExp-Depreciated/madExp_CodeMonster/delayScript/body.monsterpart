@@ -1,0 +1,9 @@
+{
+  "name" : "delayScript",
+  "category" : "delayScript",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "delayScript.png"
+  }
+}

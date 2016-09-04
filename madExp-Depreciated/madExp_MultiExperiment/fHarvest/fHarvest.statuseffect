@@ -1,0 +1,14 @@
+{
+  "name" : "fHarvest_sbno",
+	"effectConfig" : {
+	"automatoseedH_sbno" : "automatoseed",
+    "avesmingoseedH_sbno" : "avesmingoseed"
+  },
+
+  "scripts" : [
+    "fHarvest_sbno.lua"
+  ],
+
+  "label" : "Spawn",
+  "icon" : "/interface/statuses/heal.png"
+}

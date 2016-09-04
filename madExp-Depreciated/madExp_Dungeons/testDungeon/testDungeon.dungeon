@@ -1,0 +1,240 @@
+{
+  "metadata" : {
+    "name" : "testDungeon",
+    "species" : "dummy",
+    "rules" : [
+    ],
+    "anchor" : [ "villagecenter1" ],
+    "gravity" : 80,
+    "maxRadius" : 750,
+    "maxParts" : 100
+  },
+  "tiles" : [
+    {
+      "value" : [255, 0, 220, 255],
+      "comment" : "magic pinkppp, a no-op value"
+    },
+    {
+      "value" : [0, 0, 0, 255],
+      "rules" : [ [ "worldGenMustContainAirBackground" ], [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ] ]
+    },
+    {
+      "value" : [120, 120, 120, 255],
+      "rules" : [ [ "worldGenMustContainAirForeground" ], [ "allowOverdrawing" ] ]
+    },
+    {
+      "value" : [255, 255, 255, 255],
+      "rules" : [ [ "worldGenMustContainSolidBackground" ], [ "allowOverdrawing" ] ],
+      "brush" : [ [ "surface" ] ]
+    },
+    {
+      "value" : [0, 38, 255, 255],
+      "comment" : "bright blue, entrance coupler",
+      "connector" : true
+    },
+
+    {
+      "value" : [0, 255, 186, 255],
+      "comment" : "bright aqua, alternate coupler",
+      "connector" : true
+    },
+
+    {
+      "value" : [168, 255, 0, 255],
+      "comment" : "bright green, alternate coupler #2",
+      "connector" : true
+    },
+
+    {
+      "value" : [255, 168, 0, 255],
+      "comment" : "bright orange, alternate coupler #3",
+      "connector" : true
+    },
+
+    {
+      "value" : [32, 32, 32, 255],
+      "comment" : "Empty hole",
+      "brush" : [ [ "clear" ] ]
+    },
+
+    {
+      "value" : [48, 48, 48, 255],
+      "comment" : "Empty hole overwritable",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ] ]
+    },
+
+    {
+      "value" : [128, 128, 128, 255],
+      "comment" : "Biome tile brush",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "surface" ] ]
+    },
+
+    {
+      "value" : [100, 100, 100, 255],
+      "comment" : "Biome tile brush non-overwritable",
+      "brush" : [ [ "surface" ] ]
+    },
+
+    {
+      "value" : [200, 200, 200, 255],
+      "comment" : "Biome tile background brush",
+      "brush" : [ [ "clear" ], [ "surfacebackground" ] ]
+    },
+
+    {
+      "value" : [54, 63, 105, 255],
+      "comment" : "water pool foreground",
+      "brush" : [ [ "clear" ], [ "liquid", "water" ] ]
+    },
+
+    {
+      "value" : [150, 255, 0, 255],
+      "comment" : "poison pool foreground",
+      "brush" : [ [ "clear" ], [ "liquid", "poison" ] ]
+    },
+
+    {
+      "value" : [255, 96, 0, 255],
+      "comment" : "lava pool foreground",
+      "brush" : [ [ "clear" ], [ "liquid", "lava" ] ]
+    },
+
+    {
+      "value" : [255, 232, 178, 255],
+      "comment" : "background main biome block",
+      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 0 } ] ]
+    },
+
+    {
+      "value" : [255, 222, 178, 255],
+      "comment" : "overwritable background main biome block",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 0 } ] ]
+    },
+
+    {
+      "value" : [204, 186, 143, 255],
+      "comment" : "foreground main biome block",
+      "brush" : [ [ "surface", { "variant" : 0 } ] ]
+    },
+
+    {
+      "value" : [204, 176, 143, 255],
+      "comment" : "overwritable foreground main biome block",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "surface", { "variant" : 0 } ] ]
+    },
+
+    {
+      "value" : [178, 232, 255, 255],
+      "comment" : "background sub biome block #1",
+      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 1 } ] ]
+    },
+
+    {
+      "value" : [178, 222, 255, 255],
+      "comment" : "overwritable background sub biome block #1",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 1 } ] ]
+    },
+
+    {
+      "value" : [143, 186, 204, 255],
+      "comment" : "foreground sub biome block #1",
+      "brush" : [ [ "surface", { "variant" : 1 } ] ]
+    },
+
+    {
+      "value" : [143, 176, 204, 255],
+      "comment" : "overwritable foreground sub biome block #1",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "surface", { "variant" : 1 } ] ]
+    },
+
+    {
+      "value" : [222, 255, 178, 255],
+      "comment" : "background sub biome block #2",
+      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 2 } ] ]
+    },
+
+    {
+      "value" : [222, 245, 178, 255],
+      "comment" : "overwritable background sub biome block #2",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ], [ "surfacebackground", { "variant" : 2 } ] ]
+    },
+
+    {
+      "value" : [177, 204, 143, 255],
+      "comment" : "foreground sub biome block #2",
+      "brush" : [ [ "surface", { "variant" : 2 } ] ]
+    },
+
+    {
+      "value" : [177, 194, 143, 255],
+      "comment" : "overwritable foreground sub biome block #2",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "surface", { "variant" : 2 } ] ]
+    },
+
+  "parts" : [
+    {
+      "name" : "villagecenter1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "image", [ "villagecenter1.png", "villagecenter1-objects.png" ] ]
+    },
+    {
+      "name" : "1a",
+      "rules" : [
+        [ "doNotConnectToPart", [ "1a", "1b", "2a", "2b", "3a", "3b", "5", "7a", "7b", "8", "9", "19a", "19b", "20a", "20b" ] ],
+        [ "doNotCombineWith", [ "1a", "1b" ] ]
+      ],
+      "def" : [ "image", [ "1.png", "1a-objects.png" ] ]
+    },
+    {
+      "name" : "1b",
+      "rules" : [
+        [ "doNotConnectToPart", [ "1a", "1b", "2a", "2b", "3a", "3b", "5", "7a", "7b", "8", "9", "19a", "19b", "20a", "20b" ] ],
+        [ "doNotCombineWith", [ "1a", "1b" ] ]
+      ],
+      "def" : [ "image", [ "1.png", "1b-objects.png" ] ]
+    },
+    {
+      "name" : "2a",
+      "rules" : [
+        [ "doNotConnectToPart", [ "1a", "1b", "2a", "2b", "3a", "3b", "5", "7a", "7b", "8", "9", "19a", "19b", "20a", "20b" ] ],
+        [ "doNotCombineWith", [ "2a", "2b" ] ]
+      ],
+      "def" : [ "image", [ "2.png", "2a-objects.png" ] ]
+    },
+    {
+      "name" : "2b",
+      "rules" : [
+        [ "doNotConnectToPart", [ "1a", "1b", "2a", "2b", "3a", "3b", "5", "7a", "7b", "8", "9", "19a", "19b", "20a", "20b" ] ],
+        [ "doNotCombineWith", [ "2a", "2b" ] ]
+      ],
+      "def" : [ "image", [ "2.png", "2b-objects.png" ] ]
+    },
+    {
+      "name" : "3a",
+      "rules" : [
+        [ "doNotConnectToPart", [ "1a", "1b", "2a", "2b", "3a", "3b", "5", "7a", "7b", "8", "9", "19a", "19b", "20a", "20b" ] ],
+        [ "doNotCombineWith", [ "3a", "3b" ] ]
+      ],
+      "def" : [ "image", [ "3.png", "3a-objects.png" ] ]
+    },
+    {
+      "name" : "3b",
+      "rules" : [
+        [ "doNotConnectToPart", [ "1a", "1b", "2a", "2b", "3a", "3b", "5", "7a", "7b", "8", "9", "19a", "19b", "20a", "20b" ] ],
+        [ "doNotCombineWith", [ "3a", "3b" ] ]
+      ],
+      "def" : [ "image", [ "3.png", "3b-objects.png" ] ]
+    }
+  ]
+}

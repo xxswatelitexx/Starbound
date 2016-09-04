@@ -1,0 +1,4 @@
+{
+	"name" : "madExp_CustomPet",
+	"requires" : ["madExp_ChoosePet"]
+}

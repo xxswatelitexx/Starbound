@@ -1,0 +1,9 @@
+{
+  "name" : "blueyellow",
+  "category" : "customPet",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "blueyellow.png"
+  }
+}

@@ -1,0 +1,15 @@
+[ 
+	{
+		"op" : "add",
+		"path" : "/statusControllerSettings/stats/testMax",
+		"value" : { "baseValue" : 10}
+	},
+	{
+		"op" : "add",
+		"path" : "/statusControllerSettings/resources/test",
+		"value" : {
+       "maxStat" : "testMax",
+       "initialPercentage" : 0
+		} 
+	}
+]

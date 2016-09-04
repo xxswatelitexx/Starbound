@@ -1,0 +1,38 @@
+[ {
+"op" : "add",
+"path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "pethouseBunny" }
+},{
+"op" : "add",
+"path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "pethouseCat" }
+},{
+"op" : "add",
+"path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "pethouseCrasberry" }
+},{
+"op" : "add",
+"path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "pethouseOrbis" }
+},{
+"op" : "add",
+"path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "pethousePiglett" }
+},{
+"op" : "add",
+"path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "pethouseSnake" }
+},{
+"op" : "add",
+"path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "pethouseSnugget" }
+},{
+"op" : "add",
+"path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "pethouseWeasel" }
+},{
+"op" : "add",
+"path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "petTrap" }
+}
+ ]

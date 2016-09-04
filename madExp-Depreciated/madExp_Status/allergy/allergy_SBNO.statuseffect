@@ -1,0 +1,16 @@
+{
+  "name" : "allergy_SBNO",
+
+  "effectConfig" : {
+		"novakid" : 1,
+		"apex" : 0
+	},
+	
+  "defaultDuration" : 1,
+  "scripts" : [
+    "allergy_SBNO.lua"
+  ],
+
+  "label" : "Allergy",
+  "icon" : "/interface/statuses/absorb.png"
+}

@@ -1,0 +1,17 @@
+{
+  "itemName" : "bread2",
+  "rarity" : "Common",
+  "price" : 25,
+  "inventoryIcon" : "bread.png",
+  "description" : "Mmm, fresh out of the oven.",
+  "shortdescription" : "Bread",
+  "handPosition" : [0, 6],
+  "effects" : [ [
+    {
+        "effect" : "spawnItem"
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

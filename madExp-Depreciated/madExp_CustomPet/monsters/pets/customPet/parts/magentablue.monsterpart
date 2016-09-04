@@ -1,0 +1,9 @@
+{
+  "name" : "magentablue",
+  "category" : "customPet",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "magentablue.png"
+  }
+}
