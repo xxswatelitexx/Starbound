@@ -1,0 +1,40 @@
+{
+  "objectName" : "btest001",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Data Storage Test 01",
+  "shortdescription" : "Data Storage text box",
+  "printable" : false,
+  "price" : 10,
+  "maxStack" : 1,
+
+  "apexDescription" : "test",
+  "avianDescription" : "test",
+  "floranDescription" : "test",
+  "glitchDescription" : "test",
+  "humanDescription" : "test",
+  "hylotlDescription" : "test",
+  "novakidDescription" : "test",
+
+  "inventoryIcon" : "btesticon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "btest.png:test",
+  "retainObjectParametersInItem" : true,
+
+  "orientations" : [
+    {
+      "dualImage" : "btest.png:test",
+      "imagePosition" : [0, 0],
+
+      "spacescan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+   "scripts" : [
+      "/data_storage_01/btest.lua"
+    ],
+    "scriptDelta" : 5
+}
