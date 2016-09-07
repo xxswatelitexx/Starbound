@@ -1,9 +1,4 @@
-One thing I was not fond about in starbound is not being able to interact with the world elements directly.
-Almost all interactions dealt with converting elements into items then running them through a crafting table.
-
-So with that said I wanted to always create a furnace which converted a liquid into an item - without actually picking up the liquid first and converting it directly.
-Now unfortunately the Starbound Developers decided not to be able to have direct access to the liquid name. So you must use the liquid ID # in the liquid config file.
-This makes things increasingly complicated in mod compatibility stand point. So I am not going to worry about that.
+In this experiment I wanted to create an object that when submerged in liquid would create an item based on the liquid it is submerged in. 
 
 ###Experiment 1
 So this experiment has a few movement parts that need to work together in order for it to work.
