@@ -1,10 +1,10 @@
 {
-  "objectName" : "btest002",
+  "objectName" : "btest003",
   "colonyTags" : ["nature"],
   "rarity" : "Common",
   "category" : "farmable",
-  "description" : "Data Storage Test 02",
-  "shortdescription" : "Data Storage text box",
+  "description" : "liquid furnace Test 01",
+  "shortdescription" : "liquid furnace text box",
   "printable" : false,
   "price" : 10,
   "maxStack" : 1,
@@ -33,7 +33,9 @@
   ],
 
    "scripts" : [
-      "/data_storage_02/btest.lua"
+      "/liquid_furnace_01/btest.lua"
     ],
-    "scriptDelta" : 5
+  "scriptDelta" : 5,
+
+  "1" : "ice"
 }
