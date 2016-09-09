@@ -24,7 +24,10 @@
     }
   },
 
-  "scripts" : ["testdizzyingmeleeweapon.lua"],
+  "scripts" : [
+    "/items/active/weapons/melee/meleeweapon.lua",
+    "/items/active/weapons/scripts/testdizzyingweapon.lua"
+  ],
 
   "elementalType" : "physical",
 
