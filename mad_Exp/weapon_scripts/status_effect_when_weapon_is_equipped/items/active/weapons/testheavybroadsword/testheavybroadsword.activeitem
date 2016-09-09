@@ -24,7 +24,10 @@
     }
   },
 
-  "scripts" : ["testheavymeleeweapon.lua"],
+  "scripts" : [
+    "/items/active/weapons/melee/meleeweapon.lua",
+    "/items/active/weapons/scripts/testheavyweapon.lua"
+  ],
 
   "elementalType" : "physical",
 

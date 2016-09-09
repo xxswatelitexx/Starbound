@@ -29,7 +29,10 @@
   "baseOffset" : [0.4, 0.15],
   "muzzleOffset" : [2.3, 0.15],
 
-  "scripts" : ["testdizzyingassaultrifle.lua"],
+  "scripts" : [
+    "/items/active/weapons/ranged/gun.lua",
+    "/items/active/weapons/scripts/testdizzyingweapon.lua"
+  ],
 
   "elementalType" : "physical",
 
