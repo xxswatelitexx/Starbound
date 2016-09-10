@@ -6,23 +6,28 @@ In this test we use a custom weapon script to give the player the "staffslow" st
 
 In the activeiteom we added:
 ```JSON
-"scripts" : ["testheavyassaultrifle.lua"],
+"scripts" : [
+  "/items/active/weapons/ranged/gun.lua",
+  "/items/active/weapons/scripts/testheavyweapon.lua"
+],
 ```
 or:
 ```JSON
-"scripts" : ["testheavyassaultrifle.lua"],
+"scripts" : [
+  "/items/active/weapons/melee/meleeweapon.lua",
+  "/items/active/weapons/scripts/testheavyweapon.lua"
+],
 ```
 
 And into the proper lua file:
 ```Lua
 function init()
-  ...
-  self.weapon:init()
+  oldInit()
   status.setPersistentEffects("onEquiptStatus", { "staffslow" })
 end
-
+...
 function uninit()
-  self.weapon:uninit()
+  oldUnInit()
   status.clearPersistentEffects("onEquiptStatus")
 end
 ```
@@ -31,11 +36,17 @@ end
 In this test we use a custom weapon script to give the player the "staffslow" status when he/she runs out of energy.
 In the activeiteom we added:
 ```JSON
-"scripts" : ["testdizzyingassaultrifle.lua"],
+"scripts" : [
+  "/items/active/weapons/ranged/gun.lua",
+  "/items/active/weapons/scripts/testdizzyingweapon.lua"
+],
 ```
 or:
 ```JSON
-"scripts" : ["testdizzyingassaultrifle.lua"],
+"scripts" : [
+  "/items/active/weapons/melee/meleeweapon.lua",
+  "/items/active/weapons/scripts/testdizzyingweapon.lua"
+],
 ```
 
 And into the proper lua file:
@@ -43,7 +54,7 @@ And into the proper lua file:
 function update(dt, fireMode, shiftHeld)
   local preEnergy = status.resource("energy")
 
-  self.weapon:update(dt, fireMode, shiftHeld)
+  oldUpdate(dt, fireMode, shiftHeld)
 
   local postEnergy = status.resource("energy")
 
