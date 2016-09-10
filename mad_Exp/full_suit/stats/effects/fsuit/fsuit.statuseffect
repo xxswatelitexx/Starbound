@@ -1,0 +1,11 @@
+{
+  "name" : "fsuit",
+  "effectConfig" : {
+    "color" : "0000EE"
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "fsuit.lua"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "author" : "Swat | Elite",
+  "description" : "Only removes Race starter pets.\nDoes not remove farmable animals or pets captured with a capture pod.\nThis is a light version of Purchaseable pets - as some users requested it. \nWill move custom race pets - if they use the vanillia metod of spawning.",
+  "friendlyName" : "No Pets ( Removes Starter Pets Only ) ",
+  "link" : "steam://url/CommunityFilePage/733729084",
+  "name" : "no_pets",
+  "steamContentId" : "733729084",
+  "version" : "1.0"
+}

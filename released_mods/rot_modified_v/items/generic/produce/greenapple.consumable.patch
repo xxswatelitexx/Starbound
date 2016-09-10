@@ -1,0 +1,24 @@
+[
+ {
+  "op" : "remove",
+  "path" : "/builder"
+ },
+ {
+  "op" : "remove",
+  "path" : "/itemAgingScripts"
+ },
+ {
+  "op" : "remove",
+  "path" : "/rottingMultiplier"
+ },
+  {
+  	"op":"replace",
+  	"path":"/foodValue",
+  	"value": 0
+  },
+ {
+  "op" : "replace",
+  "path" : "/maxStack",
+  "value" : 99
+ }
+]

@@ -26,9 +26,9 @@ From the results you can tell the data was retained after it was removed and rep
 
 
 ###Experiment 2
-So in this experiment I am doing the classical method that other mods used to store data. By destroying the object and creating a new object with the parameter stored.
+So in this experiment I am doing the classical method that other mods use to store data. This is done by destroying the object and creating a new object with the parameter stored.
 The important part of the code is shown below.
-```
+```lua
 tValue = {test="abc"}
 world.spawnItem(object.name(), entity.position(), 1, tValue)
 ```
@@ -45,4 +45,10 @@ Log Result Below:
 [21:40:06.801] [Info] abc
 [21:40:06.880] [Info] abc
 ```
-The new value was stored even after removing and replacing the item.
+As you can see - the new value was stored even after removing and replacing the item.
+
+On a side note we added an extra parameter
+```lua
+object.smash(true)
+```
+Since we set smash to true - it prevents the object item from being generated when destroyed. Otherise we would have 2 items - one from spawnitem and the object it self.

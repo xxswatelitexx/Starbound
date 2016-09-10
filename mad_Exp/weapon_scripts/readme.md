@@ -1,3 +1,4 @@
+by Alberto Rota - http://github.com/AlbertoRota
 In this set of experiments we will look at how to hook certain actions to weapons.
 
 ###Experiment 1: status_effect_when_weapon_is_equipped

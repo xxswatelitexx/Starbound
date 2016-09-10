@@ -1,0 +1,9 @@
+{
+  "author" : "Swat | Elite",
+  "description" : "Overview:\nThis mod removes the starting pet and allows you to buy which ever starting pet you wish.\nBuy pets at Infinity Express\nUse Pet trap to remove unwanted pets.\nThis mod will remove custom pets of custom races if they use the vanillia method of spawning ( tech station ). \nBut you won't be able to buy custom race pets without a seperate mod.\n\nUpdate 1.2.\nFixed a small issue in pet trap code. Should now cleanly remove the pet without errors. \n\nUpdate 1.3 Emergency Bug Fix \nAccidently duplicated an entry. ",
+  "friendlyName" : "Purchasable Pets",
+  "link" : "steam://url/CommunityFilePage/729438381",
+  "name" : "p_Pets",
+  "steamContentId" : "729438381",
+  "version" : "1.3"
+}

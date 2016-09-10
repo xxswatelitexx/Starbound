@@ -1,0 +1,9 @@
+{
+  "author" : "The | Suite",
+  "description" : "Removes Rot on produce. Makes produce stackable ( upto 99 ). Stacked food no longer restores hunger, you eat cooked food to restore hunger.",
+  "friendlyName" : "Rot Modified Vanillia",
+  "link" : "steam://url/CommunityFilePage/739946011",
+  "name" : "rot_modified_v",
+  "steamContentId" : "739946011",
+  "version" : "1.1"
+}

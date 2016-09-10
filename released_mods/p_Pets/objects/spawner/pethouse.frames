@@ -1,0 +1,16 @@
+{
+  "frameGrid" : {
+    "size" : [24, 24],
+    "dimensions" : [1, 8],
+    "names" : [
+      [ "red" ],
+      [ "yellow" ],
+      [ "orange" ],
+      [ "green" ],
+      [ "purple" ],
+      [ "blue" ],
+      [ "pink" ],
+      [ "teal" ]
+    ]
+  }
+}
