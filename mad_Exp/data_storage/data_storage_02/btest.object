@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Data Storage Test 02",
-  "shortdescription" : "Data Storage text box",
+  "shortdescription" : "DaTest Box 2",
   "printable" : false,
   "price" : 10,
   "maxStack" : 1,

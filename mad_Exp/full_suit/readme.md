@@ -2,7 +2,7 @@ This experiment focuses on checking to see if the player is wearing all the spec
 After all in RPG's having "Full Item Sets" is all the rage.
 
 ###Experiment 1
-So this experiment is pretty straight forward in each clothing item we added a stat modifier
+So this experiment is pretty straight forward in each clothing item we added a stat modifier "tchest".
 ```json
 "statusEffects" : [
     {
@@ -12,7 +12,7 @@ So this experiment is pretty straight forward in each clothing item we added a s
 
   ],
   ```
-Here we can see we added the stat tchest
+Here we can see we added the stat "thelm".
 In helm we added one extra parameter - the actual status effect "fsuit".
 ```json
 "statusEffects" : [
@@ -29,6 +29,6 @@ Next in the Lua we setup a condition to check to see if all 3 stats are present 
 if status.stat("thead") == 1 and status.stat("tchest") == 1 and status.stat("tleg") == 1 then
 ```
 
-Because we kept this in initialize as opposed to update. The order we put on the clothes is important - since init is only called once.
-So if we put helmet first and the other 2 after - nothing would happen.
-While if we put on the other 2 first then helm you will turn blue.
+Because we kept this in initialize as opposed to update, the order we put on the clothes is important since init is only called once.
+So if we put helmet first and the other 2 after, nothing would happen.
+While if we put on the other 2 first then the helm you will turn blue.

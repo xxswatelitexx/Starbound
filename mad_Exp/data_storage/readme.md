@@ -52,3 +52,30 @@ On a side note we added an extra parameter
 object.smash(true)
 ```
 Since we set smash to true - it prevents the object item from being generated when destroyed. Otherise we would have 2 items - one from spawnitem and the object it self.
+
+###Experiment 3
+So now we know the different methods of storing data - it is time to take it up a notch. One of the most common things I have seen a lot of advanced mods do is store complex data tables in the lua instead of the JSON.
+So this experiment is about how complex of a data table can we store and read through the object.
+
+So we are going to store data simply as a basic table (test1) and a table inside a table (test2).
+```JSON
+"test" : [ "one", "two", "three"],
+"test2" : [ "four", {"five": "cat"} ]
+```
+Now as for the lua - the rest of it is really straight forward. The only part I want to comment on is here.
+```lua
+test2a["five"])
+```
+Since we are specifically using a string to define the value - as opposed to numerical data - we must specifically call upon that string.
+
+Now to check the log,
+```
+[07:54:57.169] [Info] Has been interacted with
+[07:54:57.169] [Info] one
+[07:54:57.169] [Info] two
+[07:54:57.169] [Info] three
+[07:54:57.169] [Info] ### LINE BREAK FOR PART 2###
+[07:54:57.169] [Info] four
+[07:54:57.169] [Info] cat
+```
+As you can see with your own eyes, it is a complete success.

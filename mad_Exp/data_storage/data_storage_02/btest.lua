@@ -15,7 +15,7 @@ function onInteraction(args)
   object.smash(true)
   --tValue is a table which stores the custom parameters of the object. More parameters can be added by seperating them with a comma
   --When calling world.spawnItem you will notice tValue is added in the end, this spot is reserved for custom parameters
-  --To prevent a duplicate item from being made, on smashing. We set object.smash(true) by setting true the item does not drop after removing it. If false the item will drop. 
+  --To prevent a duplicate item from being made, on smashing. We set object.smash(true) by setting true the item does not drop after removing it. If false the item will drop.
 end
 
 function uninit()
