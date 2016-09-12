@@ -1,0 +1,21 @@
+{
+  "itemName" : "ftest_01",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "tool",
+  "description" : "Water your crops with this fashionable watering can.",
+  "shortdescription" : "Flashlight Test",
+  "tooltipKind" : "base",
+  "twoHanded" : false,
+
+  "inventoryIcon" : "flashlight.png",
+
+  "animation" : "flashlight.animation",
+  "animationParts" : {
+    "flashlight" : "flashlight.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["flashlight.lua"],
+  "fireOffset" : [0, 0]
+}

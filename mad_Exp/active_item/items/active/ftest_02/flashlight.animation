@@ -1,0 +1,30 @@
+{
+    "animatedParts" : {
+      "parts" : {
+      "flashlight" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [0, 0],
+          "image" : "/items/active/ftest_02/flashlight.png"
+        }
+      }
+    }},
+    "lights" : {
+      "flashlightSpread" : {
+        "active" : false,
+        "position" : [1, 0],
+        "color" : [80, 80, 80]
+      },
+      "flashlight" : {
+        "active" : false,
+        "position" : [1, 0],
+        "color" : [200, 200, 200],
+        "pointLight" : true,
+        "pointAngle" : 0.00,
+        "pointBeam" : 2.5
+      }
+    },
+    "sounds" : {
+      "flashlight" : [ "/sfx/tools/flashlight_toggle.ogg" ]
+    }
+  }
