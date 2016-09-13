@@ -1,20 +1,28 @@
 {
-  "itemName" : "tleg",
+  "itemName" : "tchest_02",
   "price" : 250,
-  "inventoryIcon" : "icons.png:pants",
+  "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "category" : "legwear",
-  "description" : "Some old fashioned spacesuit trousers!",
-  "shortdescription" : "Spacesuit Trousers",
+  "category" : "chestwear",
+  "description" : "An old fashioned spacesuit chest piece!  Looks bulky.",
+  "shortdescription" : "Spacesuit Chest",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "pants.png",
-  "femaleFrames" : "pants.png",
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
 
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
   "statusEffects" : [
     {
-      "stat" : "tleg",
+      "stat" : "tchest",
       "amount" : 1
     }
 

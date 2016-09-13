@@ -1,5 +1,5 @@
 {
-  "itemName" : "thead",
+  "itemName" : "thead_02",
   "price" : 250,
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
@@ -14,7 +14,7 @@
   "mask" : "mask.png",
 
   "statusEffects" : [
-    "fsuit",
+    "fsuit_02",
     {
       "stat" : "thead",
       "amount" : 1
