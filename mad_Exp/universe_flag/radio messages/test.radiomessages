@@ -1,0 +1,11 @@
+{
+  "sm1a" : {
+    "unique" : false,
+    "text" : "^red;BREAKING NEWS:^white; A Galactic Protectorate Agent has just saved thousands of lives when a mysterious outbreak caused wide spread mutation in a mining outpost. The details are currently sketchy at the cause but we suspect a long lost alien disease was hidden away in the rock which was released on mining. This message has been brought to you by, ^orange; BIG APE^white; Get your genetic mutations cured today!"
+  },
+
+  "sm2" : {
+    "unique" : false,
+    "text" : "A torrid love triangle has formed between Ether, Big Ape and The Glitch Janitor. Who will win the heart of the Glitch Leaf Sweeper?"
+  }
+}

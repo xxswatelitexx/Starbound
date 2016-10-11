@@ -1,0 +1,40 @@
+{
+  "objectName" : "utest004",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Universe Flag Test",
+  "shortdescription" : "Universe Flag 04",
+  "printable" : false,
+  "price" : 10,
+  "maxStack" : 1,
+
+  "apexDescription" : "test",
+  "avianDescription" : "test",
+  "floranDescription" : "test",
+  "glitchDescription" : "test",
+  "humanDescription" : "test",
+  "hylotlDescription" : "test",
+  "novakidDescription" : "test",
+
+  "inventoryIcon" : "btesticon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "btest.png:test",
+  "retainObjectParametersInItem" : true,
+
+  "orientations" : [
+    {
+      "dualImage" : "btest.png:test",
+      "imagePosition" : [0, 0],
+
+      "spacescan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+   "scripts" : [
+      "/universe_flag_04/utest04.lua"
+    ],
+    "scriptDelta" : 5
+}
